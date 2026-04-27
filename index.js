@@ -1,13 +1,13 @@
 // ==================== Configuration ====================
 
-const BOT_TOKEN = "TELEGRAM_BOT_TOKEN_HERE"; // Replace with your Telegram bot token
-const BALE_BOT_TOKEN = "BALE_BOT_TOKEN_HERE"; // Replace with your Bale bot token
+const BOT_TOKEN = "7770272892:AAEp8B6k0Id47Af6mVxcts004sEUzEgo9Pc"; // Replace with your Telegram bot token
+const BALE_BOT_TOKEN = "557215958:Z6dwTYdT9UJQHigES7wLUbJsWKUwajLCfzM"; // Replace with your Bale bot token
 const BOT_WEBHOOK = "/endpoint";
 
 // User Mapping: Telegram Sender → Bale Recipient
 // example: { "123456789": "987654321" } means Telegram user with ID 123456789 will have their files sent to Bale user with ID 987654321
 const USER_MAPPING = {
-  "tg_user_id": "bale_user_id",
+  "109762835": "1961152861",
 };
 
 const MAX_FILE_SIZE = 20 * 1024 * 1024; // 20 MB
